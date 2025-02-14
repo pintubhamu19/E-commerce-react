@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import "./cartItems.css"
+import "./CartItems.css"
 import { ShopContext } from '../../Context/ShopContext'
 import remove_icon from '../Assests/cart_cross_icon.png'
 
