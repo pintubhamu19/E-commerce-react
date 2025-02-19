@@ -118,7 +118,7 @@
 @media(max-width:800px) {
     .loginsignup-container {
         width: 70vw;
-        height: 73%;
+        height: 90%;
         padding: 20px 30px;
         padding-right: 40px;
     }
@@ -132,21 +132,23 @@
     }
 
     .loginsignup-fields input {
-        height: 50px;
+        height: 40px;
     }
 
     .loginsignup-container button {
-        height: 50px;
+        height: 40px;
         font-size: 16px;
     }
 
     .loginsignup-agree {
-        font-size: 17px;
+        font-size: 14px;
     }
+
+
 }
 
-/* @media(max-width:700px) {
-    .loginsignup-container {
-        width: 80vw;
+@media(max-width:500px) {
+    .loginsignup-login {
+        font-size: 13px;
     }
-} */
+}

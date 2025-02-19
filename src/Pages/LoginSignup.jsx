@@ -30,7 +30,7 @@ export default function LoginSignup(props) {
                 </p> :
                     <p className="loginsignup-login">
                         Create an account?
-                        <Link to={'/signup'}><span onClick={() => { setState("Sign Up") }}><a >Click here</a></span></Link>
+                        <Link to={'/signup'}><span className="click" onClick={() => { setState("Sign Up") }}><a >Click here</a></span></Link>
                     </p>}
             </div>
             <br /><br />
